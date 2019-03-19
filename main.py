@@ -52,9 +52,9 @@ def changeMotorOnPose(pose):
         if appPosition == 0:
             print("BLINKY")
             GPIO.output(led, GPIO.HIGH)
+            time.sleep(1)
             GPIO.output(led, GPIO.LOW)
-            GPIO.output(led, GPIO.HIGH)
-            GPIO.output(led, GPIO.LOW)  
+            
     else: 
       pass
     
